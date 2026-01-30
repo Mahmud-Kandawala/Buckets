@@ -2,7 +2,7 @@ import React, { useRef, useMemo, useEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { BALL_RADIUS, CAMERA_SETUPS } from './sceneConfig';
-import { calculateTrajectoryPoint, calculateBallRotation } from './Trajectory.tsx';
+import { calculateTrajectoryPoint, calculateBallRotation } from './Trajectory';
 import type { TrajectoryConfig } from './types';
 import type { ShotOutcome, CourtPosition } from '../types/index';
 

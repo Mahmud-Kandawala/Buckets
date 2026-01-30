@@ -247,6 +247,18 @@ export const LandingScreen: React.FC<LandingScreenProps> = ({
         </div>
       </div>
 
+      <div style={{
+        position: 'absolute',
+        bottom: '24px',
+        width: '100%',
+        textAlign: 'center',
+        fontSize: '14px',
+        color: 'rgba(245, 240, 232, 0.4)',
+        zIndex: 1,
+      }}>
+        By: Mahmud Kandawala
+      </div>
+
       {/* CSS Keyframes would need to be added via global styles or styled-components */}
       <style>{`
         @keyframes spin {

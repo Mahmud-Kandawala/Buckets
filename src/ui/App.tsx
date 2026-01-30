@@ -20,10 +20,10 @@ import { ShotEngine } from '../shot-engine/ShotEngine';
 import { GameScene } from '../rendering/index';
 
 // UI Components
-import { LandingScreen } from './LandingScreen.tsx';
-import { OnboardingFlow } from './OnboardingFlow.tsx';
-import { GameScreen } from './GameScreen.tsx';
-import { ErrorBoundary, ErrorDisplay } from './ErrorBoundary.tsx';
+import { LandingScreen } from './LandingScreen';
+import { OnboardingFlow } from './OnboardingFlow';
+import { GameScreen } from './GameScreen';
+import { ErrorBoundary, ErrorDisplay } from './ErrorBoundary';
 
 // Hooks
 import { useSettings } from '../hooks/useSettings';

@@ -1,11 +1,11 @@
 import React, { useRef, useEffect, useMemo, useCallback } from 'react';
 import { Canvas, useThree, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { Ball } from './Ball.tsx';
-import { Hoop } from './Hoop.tsx';
-import { Net } from './Net.tsx';
-import { Court } from './Court.tsx';
-import { createTrajectoryConfig } from './Trajectory.tsx';
+import { Ball } from './Ball';
+import { Hoop } from './Hoop';
+import { Net } from './Net';
+import { Court } from './Court';
+import { createTrajectoryConfig } from './Trajectory';
 import { CAMERA_SETUPS, HOOP_POSITION, RIM_RADIUS } from './sceneConfig';
 import type { CourtPosition, ShotState, ShotOutcome, TimingZone } from '../types/index';
 import type { TrajectoryConfig } from './types';
