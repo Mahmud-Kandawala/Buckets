@@ -1,8 +1,8 @@
-import type { HolisticLandmarks, DominantHand, PositionDetectorConfig } from '../types/index.ts';
-import { DEFAULT_POSITION_CONFIG } from '../types/index.ts';
-import type { PositionResult } from './types.ts';
-import { PositionDetector } from './positionDetector.ts';
-import { MLPositionDetector } from './mlPositionDetector.ts';
+import type { HolisticLandmarks, DominantHand, PositionDetectorConfig } from '../types/index';
+import { DEFAULT_POSITION_CONFIG } from '../types/index';
+import type { PositionResult } from './types';
+import { PositionDetector } from './positionDetector';
+import { MLPositionDetector } from './mlPositionDetector';
 
 export interface HybridConfig {
   mlWeight: number; // 0-1, weight for ML vs rules

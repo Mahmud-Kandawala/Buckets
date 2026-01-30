@@ -1,6 +1,6 @@
-import type { HolisticLandmarks, DominantHand } from '../types/index.ts';
-import type { PositionResult } from './types.ts';
-import { ShotClassifier } from '../ml/shotClassifier.ts';
+import type { HolisticLandmarks, DominantHand } from '../types/index';
+import type { PositionResult } from './types';
+import { ShotClassifier } from '../ml/shotClassifier';
 
 /**
  * ML-based position detector using the shot classifier

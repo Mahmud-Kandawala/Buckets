@@ -1,5 +1,5 @@
-import type { MLFeatures } from './types.ts';
-import { featuresToArray } from './types.ts';
+import type { MLFeatures } from './types';
+import { featuresToArray } from './types';
 
 /**
  * Ring buffer for storing temporal sequences of ML features.

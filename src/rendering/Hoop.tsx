@@ -1,6 +1,6 @@
 import React from 'react';
 import * as THREE from 'three';
-import { HOOP_POSITION, RIM_RADIUS, BACKBOARD_SIZE } from './sceneConfig.ts';
+import { HOOP_POSITION, RIM_RADIUS, BACKBOARD_SIZE } from './sceneConfig';
 
 interface HoopProps {
   position?: { x: number; y: number; z: number };

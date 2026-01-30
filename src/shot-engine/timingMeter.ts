@@ -1,5 +1,5 @@
-import type { Difficulty, TimingZone, TimingMeterConfig } from '../types/index.ts';
-import { DIFFICULTY_CONFIGS } from '../types/index.ts';
+import type { Difficulty, TimingZone, TimingMeterConfig } from '../types/index';
+import { DIFFICULTY_CONFIGS } from '../types/index';
 
 /**
  * Manages the timing meter for shot release

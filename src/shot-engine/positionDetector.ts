@@ -1,6 +1,6 @@
-import type { HolisticLandmarks, DominantHand, PositionDetectorConfig, NormalizedLandmark } from '../types/index.ts';
-import { POSE_LANDMARKS, DEFAULT_POSITION_CONFIG } from '../types/index.ts';
-import type { PositionResult } from './types.ts';
+import type { HolisticLandmarks, DominantHand, PositionDetectorConfig, NormalizedLandmark } from '../types/index';
+import { POSE_LANDMARKS, DEFAULT_POSITION_CONFIG } from '../types/index';
+import type { PositionResult } from './types';
 
 /**
  * Calculate angle between three points in degrees

@@ -1,4 +1,4 @@
-import type { SoundEffect } from './types.ts';
+import type { SoundEffect } from './types';
 
 // Generate simple sounds using Web Audio API oscillators
 // (Since we don't have actual audio files, create synthetic sounds)

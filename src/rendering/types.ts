@@ -1,4 +1,4 @@
-import type { CourtPosition, ShotOutcome } from '../types/index.ts';
+import type { CourtPosition, ShotOutcome } from '../types/index';
 
 export interface CameraSetup {
   position: [number, number, number];

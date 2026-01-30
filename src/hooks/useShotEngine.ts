@@ -1,12 +1,12 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
-import { ShotEngine } from '../shot-engine/ShotEngine.ts';
+import { ShotEngine } from '../shot-engine/ShotEngine';
 import type {
   ShotState,
   ShotEvent,
   ShotEngineConfig,
   TimingZone,
   HolisticLandmarks,
-} from '../types/index.ts';
+} from '../types/index';
 
 interface UseShotEngineReturn {
   state: ShotState;

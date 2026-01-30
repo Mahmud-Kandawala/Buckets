@@ -1,5 +1,5 @@
-import type { SoundEffect, AudioConfig, AudioState } from './types.ts';
-import { createAudioContext, playWhoosh, playSwish, playRim, playAirball } from './sounds.ts';
+import type { SoundEffect, AudioConfig, AudioState } from './types';
+import { createAudioContext, playWhoosh, playSwish, playRim, playAirball } from './sounds';
 
 export class AudioManager {
   private ctx: AudioContext | null = null;

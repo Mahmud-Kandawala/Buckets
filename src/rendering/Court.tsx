@@ -1,6 +1,6 @@
 import React from 'react';
 import * as THREE from 'three';
-import type { CourtPosition } from '../types/index.ts';
+import type { CourtPosition } from '../types/index';
 
 interface CourtProps {
   showPositionMarkers?: boolean;

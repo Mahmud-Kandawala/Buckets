@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
-import { AudioManager } from '../audio/AudioManager.ts';
-import type { SoundEffect } from '../audio/types.ts';
+import { AudioManager } from '../audio/AudioManager';
+import type { SoundEffect } from '../audio/types';
 
 interface UseAudioReturn {
   play: (sound: SoundEffect) => void;

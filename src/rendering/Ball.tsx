@@ -1,10 +1,10 @@
 import React, { useRef, useMemo, useEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { BALL_RADIUS, CAMERA_SETUPS } from './sceneConfig.ts';
+import { BALL_RADIUS, CAMERA_SETUPS } from './sceneConfig';
 import { calculateTrajectoryPoint, calculateBallRotation } from './Trajectory.tsx';
-import type { TrajectoryConfig } from './types.ts';
-import type { ShotOutcome, CourtPosition } from '../types/index.ts';
+import type { TrajectoryConfig } from './types';
+import type { ShotOutcome, CourtPosition } from '../types/index';
 
 interface BallProps {
   isAnimating: boolean;

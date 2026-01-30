@@ -1,6 +1,6 @@
-import type { HolisticLandmarks, ReleaseDetectorConfig, NormalizedLandmark, DominantHand } from '../types/index.ts';
-import { POSE_LANDMARKS, DEFAULT_RELEASE_CONFIG } from '../types/index.ts';
-import type { ReleaseResult } from './types.ts';
+import type { HolisticLandmarks, ReleaseDetectorConfig, NormalizedLandmark, DominantHand } from '../types/index';
+import { POSE_LANDMARKS, DEFAULT_RELEASE_CONFIG } from '../types/index';
+import type { ReleaseResult } from './types';
 
 interface VelocityFrame {
   position: { x: number; y: number };

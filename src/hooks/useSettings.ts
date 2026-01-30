@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
-import type { UserSettings } from '../types/index.ts';
-import { DEFAULT_SETTINGS } from '../types/index.ts';
+import type { UserSettings } from '../types/index';
+import { DEFAULT_SETTINGS } from '../types/index';
 
 const STORAGE_KEY = 'buckets_settings';
 

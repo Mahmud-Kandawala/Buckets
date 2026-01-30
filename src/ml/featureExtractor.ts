@@ -5,9 +5,9 @@
  * shot classification model input.
  */
 
-import type { HolisticLandmarks, NormalizedLandmark, DominantHand } from '../types/index.ts';
-import { POSE_LANDMARKS, HAND_LANDMARKS } from '../types/index.ts';
-import type { MLFeatures } from './types.ts';
+import type { HolisticLandmarks, NormalizedLandmark, DominantHand } from '../types/index';
+import { POSE_LANDMARKS, HAND_LANDMARKS } from '../types/index';
+import type { MLFeatures } from './types';
 
 // Vector3 helper type
 interface Vector3 {

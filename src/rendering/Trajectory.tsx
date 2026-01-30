@@ -1,4 +1,4 @@
-import type { TrajectoryConfig, TrajectoryPoint } from './types.ts';
+import type { TrajectoryConfig, TrajectoryPoint } from './types';
 
 /**
  * Calculate a point along the ball trajectory using parabolic arc

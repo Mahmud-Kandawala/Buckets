@@ -1,6 +1,6 @@
 import * as tf from '@tensorflow/tfjs';
-import type { ModelConfig } from './types.ts';
-import { DEFAULT_MODEL_CONFIG } from './types.ts';
+import type { ModelConfig } from './types';
+import { DEFAULT_MODEL_CONFIG } from './types';
 
 export interface LoadedModel {
   model: tf.LayersModel;

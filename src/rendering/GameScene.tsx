@@ -6,9 +6,9 @@ import { Hoop } from './Hoop.tsx';
 import { Net } from './Net.tsx';
 import { Court } from './Court.tsx';
 import { createTrajectoryConfig } from './Trajectory.tsx';
-import { CAMERA_SETUPS, HOOP_POSITION, RIM_RADIUS } from './sceneConfig.ts';
-import type { CourtPosition, ShotState, ShotOutcome, TimingZone } from '../types/index.ts';
-import type { TrajectoryConfig } from './types.ts';
+import { CAMERA_SETUPS, HOOP_POSITION, RIM_RADIUS } from './sceneConfig';
+import type { CourtPosition, ShotState, ShotOutcome, TimingZone } from '../types/index';
+import type { TrajectoryConfig } from './types';
 
 interface GameSceneProps {
   courtPosition: CourtPosition;

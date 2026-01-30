@@ -2,7 +2,7 @@
 import type {
   ShotState,
   TimingZone,
-} from '../types/index.ts';
+} from '../types/index';
 
 // Re-export all types from the main types module
 export type {
@@ -21,7 +21,7 @@ export type {
   ReleaseDetectorConfig,
   TimingMeterConfig,
   IShotEngine,
-} from '../types/index.ts';
+} from '../types/index';
 
 export {
   DIFFICULTY_CONFIGS,
@@ -30,7 +30,7 @@ export {
   DEFAULT_RELEASE_CONFIG,
   POSE_LANDMARKS,
   HAND_LANDMARKS,
-} from '../types/index.ts';
+} from '../types/index';
 
 // Engine-specific types
 

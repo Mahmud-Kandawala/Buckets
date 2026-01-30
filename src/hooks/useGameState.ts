@@ -7,9 +7,9 @@ import type {
   ShotEvent,
   ShotOutcome,
   TimingZone,
-} from '../types/index.ts';
-import { DEFAULT_STATS } from '../types/index.ts';
-import { useSettings } from './useSettings.ts';
+} from '../types/index';
+import { DEFAULT_STATS } from '../types/index';
+import { useSettings } from './useSettings';
 
 interface UseGameStateReturn {
   screen: AppScreen;

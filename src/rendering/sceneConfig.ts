@@ -1,5 +1,5 @@
-import type { CourtPosition } from '../types/index.ts';
-import type { CameraSetup } from './types.ts';
+import type { CourtPosition } from '../types/index';
+import type { CameraSetup } from './types';
 
 export const HOOP_POSITION = { x: 0, y: 3.05, z: 6.25 }; // 10ft high, at baseline
 

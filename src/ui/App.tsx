@@ -6,18 +6,18 @@ import type {
   ShotOutcome,
   ShotEvent,
   AppError
-} from '../types/index.ts';
-import { DEFAULT_SETTINGS } from '../types/index.ts';
+} from '../types/index';
+import { DEFAULT_SETTINGS } from '../types/index';
 
 // Camera & Detection
-import { CameraProvider, useCameraContext } from '../camera/index.ts';
-import { MediaPipeProvider, useDetectionContext } from '../detection/index.ts';
+import { CameraProvider, useCameraContext } from '../camera/index';
+import { MediaPipeProvider, useDetectionContext } from '../detection/index';
 
 // Shot Engine
-import { ShotEngine } from '../shot-engine/ShotEngine.ts';
+import { ShotEngine } from '../shot-engine/ShotEngine';
 
 // Rendering
-import { GameScene } from '../rendering/index.ts';
+import { GameScene } from '../rendering/index';
 
 // UI Components
 import { LandingScreen } from './LandingScreen.tsx';
@@ -26,8 +26,8 @@ import { GameScreen } from './GameScreen.tsx';
 import { ErrorBoundary, ErrorDisplay } from './ErrorBoundary.tsx';
 
 // Hooks
-import { useSettings } from '../hooks/useSettings.ts';
-import { useAudio } from '../hooks/useAudio.ts';
+import { useSettings } from '../hooks/useSettings';
+import { useAudio } from '../hooks/useAudio';
 
 type AppScreen = 'landing' | 'setup' | 'game' | 'error';
 

@@ -1,4 +1,4 @@
-import type { TimingZone, ShotOutcome } from '../types/index.ts';
+import type { TimingZone, ShotOutcome } from '../types/index';
 
 /**
  * Resolve shot outcome based on timing zone

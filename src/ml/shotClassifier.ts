@@ -1,10 +1,10 @@
 import * as tf from '@tensorflow/tfjs';
-import type { HolisticLandmarks } from '../types/index.ts';
-import type { ShotClass, ClassificationResult, ShotClassifierConfig, MLFeatures } from './types.ts';
-import { DEFAULT_CLASSIFIER_CONFIG } from './types.ts';
-import { FeatureExtractor } from './featureExtractor.ts';
-import { TemporalBuffer } from './temporalBuffer.ts';
-import { loadModel, getLoadedModel, isModelLoaded, disposeModel } from './modelLoader.ts';
+import type { HolisticLandmarks } from '../types/index';
+import type { ShotClass, ClassificationResult, ShotClassifierConfig, MLFeatures } from './types';
+import { DEFAULT_CLASSIFIER_CONFIG } from './types';
+import { FeatureExtractor } from './featureExtractor';
+import { TemporalBuffer } from './temporalBuffer';
+import { loadModel, getLoadedModel, isModelLoaded, disposeModel } from './modelLoader';
 
 export class ShotClassifier {
   private config: ShotClassifierConfig;

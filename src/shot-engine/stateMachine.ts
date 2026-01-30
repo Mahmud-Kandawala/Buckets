@@ -1,5 +1,5 @@
-import type { ShotState } from '../types/index.ts';
-import type { StateMachineEvent, StateTransition } from './types.ts';
+import type { ShotState } from '../types/index';
+import type { StateMachineEvent, StateTransition } from './types';
 
 type StateHandler = (event: StateMachineEvent) => ShotState | null;
 type TransitionCallback = (transition: StateTransition) => void;

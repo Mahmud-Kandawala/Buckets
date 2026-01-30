@@ -5,16 +5,16 @@ import type {
   ShotEngineConfig,
   TimingZone,
   IShotEngine,
-} from '../types/index.ts';
-import { DEFAULT_SHOT_ENGINE_CONFIG } from '../types/index.ts';
-import { PositionDetector } from './positionDetector.ts';
-import { MLPositionDetector } from './mlPositionDetector.ts';
-import { HybridPositionDetector } from './hybridPositionDetector.ts';
-import { ReleaseDetector } from './releaseDetector.ts';
-import { TimingMeter } from './timingMeter.ts';
-import { StateMachine } from './stateMachine.ts';
-import { resolveOutcome, isSuccessfulShot } from './outcomeResolver.ts';
-import type { PositionResult } from './types.ts';
+} from '../types/index';
+import { DEFAULT_SHOT_ENGINE_CONFIG } from '../types/index';
+import { PositionDetector } from './positionDetector';
+import { MLPositionDetector } from './mlPositionDetector';
+import { HybridPositionDetector } from './hybridPositionDetector';
+import { ReleaseDetector } from './releaseDetector';
+import { TimingMeter } from './timingMeter';
+import { StateMachine } from './stateMachine';
+import { resolveOutcome, isSuccessfulShot } from './outcomeResolver';
+import type { PositionResult } from './types';
 
 // Common interface for all position detectors
 interface IPositionDetector {

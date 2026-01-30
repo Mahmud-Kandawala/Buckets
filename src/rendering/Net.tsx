@@ -1,8 +1,8 @@
 import React, { useRef, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { HOOP_POSITION, RIM_RADIUS } from './sceneConfig.ts';
-import type { NetState } from './types.ts';
+import { HOOP_POSITION, RIM_RADIUS } from './sceneConfig';
+import type { NetState } from './types';
 
 interface NetProps {
   isAnimating: boolean;
